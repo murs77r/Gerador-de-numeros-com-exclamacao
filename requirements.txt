@@ -1,0 +1,6 @@
+num2words
+pyautogui
+pyperclip
+keyboard
+requests
+Pillow
