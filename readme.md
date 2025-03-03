@@ -16,7 +16,7 @@ Este script Python cria uma interface gráfica (GUI) usando a biblioteca Tkinter
 
 *   **Geração de Números por Extenso:**
     *   Utiliza a biblioteca `num2words` para converter números em sua representação por extenso em português (ex: 1 -> "UM!").
-    *   Converte o resultado para letras maiúsculas e adiciona um "!" ao final.
+    *   Converte o resultado para letras maiúsculas.
 
 *   **Inserção Automatizada:**
     *   Usa `pyperclip` para copiar o número por extenso para a área de transferência.
