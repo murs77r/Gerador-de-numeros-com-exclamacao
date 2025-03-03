@@ -164,7 +164,7 @@ def criar_interface():
     icone_path = baixar_e_converter_icone(icone_url, pasta_temp)
 
     janela = tk.Tk()
-    janela.title("Gerador de Números em Maiúsculos")
+    janela.title("Gerador de Números por Extenso")
     janela.configure(bg='white')
     janela.resizable(False, False)
     if icone_path:
@@ -191,7 +191,7 @@ def criar_interface():
     frame_principal = ttk.Frame(janela, padding="20")
     frame_principal.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
 
-    ttk.Label(frame_principal, text="Gerador de Números em Maiúsculos", font=("Nunito", 14), background='white', foreground='black').grid(row=0, column=0, columnspan=2, pady=10)
+    ttk.Label(frame_principal, text="Gerador de Números por Extenso", font=("Nunito", 14), background='white', foreground='black').grid(row=0, column=0, columnspan=2, pady=10)
 
     validacao = janela.register(validar_entrada)
 
